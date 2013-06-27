@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextViewMultilineEllipse">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+        <attr name="android:maxLines" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+        <attr name="additonalLineSpace" format="float" />
+        <attr name="ellipsis" format="string" />
+        <attr name="ellipsisMore" format="string" />
+        <attr name="colorEllpsizeMore" format="integer" />
+        <attr name="rightAlignEllipsizeMoreString" format="boolean" />
+    </declare-styleable>
+
+</resources>

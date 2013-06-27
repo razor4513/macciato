@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view
+END
+ColorChip.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/ColorChip.java
+END
+MessageCryptoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/MessageCryptoView.java
+END
+ColorPickerBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/ColorPickerBox.java
+END
+AttachmentView.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/AttachmentView.java
+END
+MessageHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/MessageHeader.java
+END
+SingleMessageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/SingleMessageView.java
+END
+AccessibleWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/AccessibleWebView.java
+END
+MessageWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/view/MessageWebView.java
+END

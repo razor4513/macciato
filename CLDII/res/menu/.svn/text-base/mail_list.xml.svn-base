@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/newMail"
+        android:title="@string/mail_menu_compose"/>
+    <item
+        android:id="@+id/checkMails"
+        android:title="@string/mail_menu_update"/>
+    <item
+        android:id="@+id/manageAccounts"
+        android:title="@string/mail_manage_accounts"/>
+</menu>

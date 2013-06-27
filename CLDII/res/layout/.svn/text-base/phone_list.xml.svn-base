@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contactListLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?background" >
+
+    <RelativeLayout
+        android:id="@+id/contactListInputBar"
+        android:layout_width="fill_parent"
+        android:layout_height="42.00dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8.67dp"
+        android:layout_marginRight="8.67dp"
+        android:background="@drawable/d_phone_searchfield" >
+
+        <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <EditText
+            android:id="@+id/contactFilterEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/clearFilterButton"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="textPhonetic"
+            android:nextFocusLeft="@id/contactFilterEditText"
+            android:nextFocusUp="@id/contactFilterEditText"
+            android:paddingLeft="50dp"
+            android:singleLine="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/clearFilterButton"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:onClick="clearFilter" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/contactlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/contactListInputBar"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/nocontacts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/contactListInputBar"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/phone_no_contacts" />
+
+</RelativeLayout>

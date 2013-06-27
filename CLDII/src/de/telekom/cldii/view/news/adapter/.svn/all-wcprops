@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter
+END
+NewsDialogNewsFeedItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsDialogNewsFeedItem.java
+END
+NewsDialogIntervalAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsDialogIntervalAdapter.java
+END
+NewsListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsListAdapter.java
+END
+NewsGridViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsGridViewPagerAdapter.java
+END
+NewsItemLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsItemLoader.java
+END
+NewsDialogNewsFeedAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/adapter/NewsDialogNewsFeedAdapter.java
+END

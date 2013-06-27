@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <ListView
+        android:id="@+id/favoritesList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:layout_marginTop="5dp"
+        android:background="?background"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:textSize="10sp" >
+    </ListView>
+
+</LinearLayout>

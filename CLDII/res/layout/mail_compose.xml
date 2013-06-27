@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?background"
+    android:paddingTop="5dp" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/recipientLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="0.67dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+                <Button
+                    android:id="@+id/chooseRecipientButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:drawable/ic_input_get" />
+
+                <TextView
+                    android:id="@+id/recipientTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="?background"
+                    android:gravity="center"
+                    android:paddingRight="5dp"
+                    android:text="@string/mail_detail_to"
+                    android:textColor="?list_from"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/recipientEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/chooseRecipientButton"
+                    android:layout_toRightOf="@id/recipientTextView"
+                    android:background="?background"
+                    android:inputType="textPhonetic"
+                    android:textColor="?list_from"
+                    android:textSize="16sp"
+                    android:typeface="sans" >
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.67dp"
+                android:background="?separator" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/bccLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="0.67dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+                <Button
+                    android:id="@+id/chooseBccButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:drawable/ic_input_get" />
+
+                <TextView
+                    android:id="@+id/bccTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="?background"
+                    android:gravity="center"
+                    android:paddingRight="5dp"
+                    android:text="@string/mail_detail_bcc"
+                    android:textColor="?list_from"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/bccEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/chooseBccButton"
+                    android:layout_toRightOf="@id/bccTextView"
+                    android:background="?background"
+                    android:inputType="textPhonetic"
+                    android:textColor="?list_from"
+                    android:textSize="16sp"
+                    android:typeface="sans" >
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.67dp"
+                android:background="?separator" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/subjectLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="0.67dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+                <TextView
+                    android:id="@+id/subjectTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="?background"
+                    android:gravity="center"
+                    android:paddingRight="5dp"
+                    android:text="@string/mail_detail_subject"
+                    android:textColor="?list_from"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/subjectEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/chooseContactButton"
+                    android:layout_toRightOf="@+id/subjectTextView"
+                    android:background="?background"
+                    android:inputType="textPhonetic"
+                    android:textColor="?list_from"
+                    android:textSize="16sp"
+                    android:typeface="sans" >
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.67dp"
+                android:background="?separator" >
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/mailContentEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8dp"
+                android:background="?background"
+                android:gravity="top"
+                android:hint="@string/sms_detail_content"
+                android:inputType="textMultiLine"
+                android:minLines="10"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="50dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:textColor="?list_from"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/mailButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/mailSendButtonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="?detail_composeLeftButton"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="11dp" >
+
+            <ImageView
+                android:layout_width="21.3dp"
+                android:layout_height="21.3dp"
+                android:src="@drawable/d_sms_send" />
+
+            <TextView
+                android:id="@+id/mailSendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9.3dp"
+                android:background="@android:color/transparent"
+                android:text="@string/sms_detail_send"
+                android:textColor="?list_from"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mailCancelButtonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="?detail_composeRightButton"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="11dp" >
+
+            <ImageView
+                android:layout_width="21.3dp"
+                android:layout_height="21.3dp"
+                android:src="@drawable/d_sms_discard_plain" />
+
+            <TextView
+                android:id="@+id/mailCancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9.3dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/sms_detail_cancel"
+                android:textColor="?list_from"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

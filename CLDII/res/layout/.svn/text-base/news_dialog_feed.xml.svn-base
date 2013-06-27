@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?background" >
+
+    <ListView
+        android:id="@+id/feedList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:divider="?separator"
+        android:dividerHeight="0.67dp"
+        android:fadingEdge="none"
+        android:padding="8dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/nonews"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/news_no_news" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/contact
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/contact/Contact.java
+END
+PhoneNamePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/contact/PhoneNamePair.java
+END
+IContactDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/contact/IContactDataProvider.java
+END
+EmailNamePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/contact/EmailNamePair.java
+END

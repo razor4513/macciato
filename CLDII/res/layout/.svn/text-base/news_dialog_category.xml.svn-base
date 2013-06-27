@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:id="@+id/categoryProperties"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/categoryIconLayout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="?separator"
+            android:padding="0.67dp" >
+
+            <TextView
+                android:id="@+id/categoryIcon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="?background"
+                android:gravity="center"
+                android:text="@string/dialog_news_image" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/categoryName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?background"
+            android:textColor="?header_title"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/dialog_news_add_categoryname"
+            android:inputType="text" >
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/intervalLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/categoryProperties"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/category_intervaldescription_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/dialog_news_add_intervaldescription_head"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/category_intervaldescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_news_add_intervaldescription"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="?separator" />
+
+        <ListView
+            android:id="@+id/intervalList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:layout_marginTop="5dp"
+            android:background="?background"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:entries="@array/dialog_news_updateintervals"
+            android:textSize="10sp" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

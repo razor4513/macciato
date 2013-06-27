@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smsDetailLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/actionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="?detail_actionBg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <Button
+            android:id="@+id/smsCall"
+            android:layout_width="98dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="13dp"
+            android:background="?detail_callButton"
+            android:drawablePadding="-16dp"
+            android:drawableTop="@drawable/icon_call_plain"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="14dp"
+            android:text="@string/sms_detail_call"
+            android:textColor="?detail_plates_active"
+            android:textSize="12.67sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/smsReply"
+            android:layout_width="98dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="4dp"
+            android:background="?detail_actionButton"
+            android:drawablePadding="-16dp"
+            android:drawableTop="@drawable/icon_reply"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="14dp"
+            android:text="@string/sms_detail_reply"
+            android:textColor="?detail_plates_active"
+            android:textSize="12.67sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/smsDelete"
+            android:layout_width="98dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="4dp"
+            android:background="?detail_actionButton"
+            android:drawablePadding="-16dp"
+            android:drawableTop="@drawable/icon_cancel"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="14dp"
+            android:text="@string/sms_detail_delete"
+            android:textColor="?detail_plates_active"
+            android:textSize="12.67sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/smsScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/seekBar"
+        android:layout_below="@id/actionBar"
+        android:layout_marginBottom="44dp"
+        android:background="?background"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <RelativeLayout
+                android:id="@+id/smsTitleLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/smsDateTimeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/dateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="6dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/news_detail_time"
+                        android:textColor="?detail_time"
+                        android:textSize="14.67sp"
+                        android:typeface="sans" />
+
+                    <ImageView
+                        android:id="@+id/detailClockImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="6dp"
+                        android:src="@drawable/d_ic_clock" />
+
+                    <TextView
+                        android:id="@+id/timeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="6dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/news_detail_time"
+                        android:textColor="?detail_time"
+                        android:textSize="14.67sp"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/senderTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/smsDateTimeLayout"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/news_detail_title"
+                    android:textColor="?detail_from"
+                    android:textSize="14.67sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/contentTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="18dp"
+                android:autoLink="all"
+                android:lineSpacingExtra="2.67dp"
+                android:linksClickable="true"
+                android:scrollHorizontally="false"
+                android:text="@string/news_detail_content"
+                android:textColor="?detail_text"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/seekBarCombinedLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/seekBarOverlayView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="?detail_sliderBubble"
+            android:lineSpacingExtra="2.67dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/seekBarOverlayTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="18dp"
+                android:ellipsize="marquee"
+                android:lineSpacingExtra="2.67dp"
+                android:maxLines="4"
+                android:textColor="?detail_slidertext"
+                android:textSize="16sp"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/seekBarLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="?detail_sliderBg"
+            android:orientation="horizontal"
+            android:padding="0dp" >
+
+            <Button
+                android:id="@+id/prevButton"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.12"
+                android:background="?detail_sliderLeftButton" />
+
+            <de.telekom.cldii.widget.DetailSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="53dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginRight="-2dp"
+                android:layout_weight="0.76"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:progressDrawable="?detail_sliderStripe"
+                android:thumb="?detail_sliderThumb"
+                android:thumbOffset="3dp" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.12"
+                android:background="?detail_sliderRightButton" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

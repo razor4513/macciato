@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter
+END
+Base64OutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/Base64OutputStream.java
+END
+FixedLengthInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/FixedLengthInputStream.java
+END
+LineWrapOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/LineWrapOutputStream.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/Base64.java
+END
+SmtpDataStuffing.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/SmtpDataStuffing.java
+END
+Hex.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/Hex.java
+END
+PeekableInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/PeekableInputStream.java
+END
+CountingOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/CountingOutputStream.java
+END
+StatusOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/StatusOutputStream.java
+END
+EOLConvertingOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/filter/EOLConvertingOutputStream.java
+END

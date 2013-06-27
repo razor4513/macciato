@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/newsupdate
+END
+NewsUpdateScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/newsupdate/NewsUpdateScheduler.java
+END
+NewsUpdateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/newsupdate/NewsUpdateService.java
+END
+NewsUpdateTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/newsupdate/NewsUpdateTask.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet
+END
+TextBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/TextBody.java
+END
+EncoderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/EncoderUtil.java
+END
+MimeBodyPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/MimeBodyPart.java
+END
+MimeMultipart.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/MimeMultipart.java
+END
+MimeUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/MimeUtility.java
+END
+DecoderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/DecoderUtil.java
+END
+Iso2022JpToShiftJisInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/Iso2022JpToShiftJisInputStream.java
+END
+MimeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/MimeMessage.java
+END
+BinaryTempFileBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/BinaryTempFileBody.java
+END
+MimeHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/internet/MimeHeader.java
+END

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="resultcode_checkifttsinstalled" />
+    
+   <item type="id" name="grid_indicatorview"/>
+   <item type="id" name="grid_viewpager"/>
+   
+   <item type="id" name="requestCode_sms_changeInDetailView"/>
+   <item type="id" name="requestCode_sms_changeInDetailView_DidChange"/>
+   
+   <item type="id" name="requestCode_sms_showOrCreateContactResult"/>
+   
+   <item type="id" name="requestCode_pickContact"/>
+   
+   <item type="id" name="requestCode_predefinedGallery"/>
+   <item type="id" name="requestCode_photoGallery"/>
+   
+   <item type="id" name="requestCode_phone_addressbook_returnfromcall"/>
+   
+   <item type="id" name="requestCode_leave_application"/>
+   
+   <item type="id" name="requestCode_restart_application"/>
+</resources>

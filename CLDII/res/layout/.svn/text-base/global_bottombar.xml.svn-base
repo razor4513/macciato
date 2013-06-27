@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/leftButtonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="?bbarLeftButton"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="7dp" >
+
+        <ImageView
+            android:id="@+id/leftButtonIcon"
+            android:layout_width="21.3dp"
+            android:layout_height="21.3dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_dialpad_plain" />
+
+        <TextView
+            android:id="@+id/leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="21.3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/leftButtonIcon"
+            android:gravity="center_vertical"
+            android:text="@string/button_dialpad"
+            android:textColor="?bbar_text"
+            android:textSize="13sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rightButtonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="?bbarRightButton"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="7dp" >
+
+        <ImageView
+            android:id="@+id/rightButtonIcon"
+            android:layout_width="21.3dp"
+            android:layout_height="21.3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_adressbook_plain" />
+
+        <TextView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="21.3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/rightButtonIcon"
+            android:gravity="center_vertical"
+            android:text="@string/button_addressbook"
+            android:textColor="?bbar_text"
+            android:textSize="13sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+</LinearLayout>

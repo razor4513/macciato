@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store
+END
+LockableDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/LockableDatabase.java
+END
+Pop3Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/Pop3Store.java
+END
+ImapStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/ImapStore.java
+END
+WebDavStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/WebDavStore.java
+END
+LocalStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/LocalStore.java
+END
+TrustManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/TrustManagerFactory.java
+END
+UnavailableStorageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/UnavailableStorageException.java
+END
+ImapResponseParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/ImapResponseParser.java
+END
+StorageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/StorageManager.java
+END
+UnavailableAccountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/store/UnavailableAccountException.java
+END

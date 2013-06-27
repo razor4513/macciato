@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences
+END
+AccountSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/AccountSettings.java
+END
+Editor.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/Editor.java
+END
+CheckBoxListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/CheckBoxListPreference.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/Storage.java
+END
+TimePickerPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/TimePickerPreference.java
+END
+GlobalSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/GlobalSettings.java
+END
+SettingsImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/SettingsImporter.java
+END
+SettingsExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/SettingsExporter.java
+END
+SettingsImportExportException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/SettingsImportExportException.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/Settings.java
+END
+IdentitySettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/IdentitySettings.java
+END
+FolderSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/preferences/FolderSettings.java
+END

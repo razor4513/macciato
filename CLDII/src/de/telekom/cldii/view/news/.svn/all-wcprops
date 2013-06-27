@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news
+END
+NewsListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsListActivity.java
+END
+NewsCategoriesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsCategoriesActivity.java
+END
+NewsDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsDetailsActivity.java
+END
+NewsDialogNewsFeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsDialogNewsFeed.java
+END
+NewsDialogCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsDialogCategory.java
+END
+NewsPredefinedIconsGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsPredefinedIconsGallery.java
+END
+NewsDialogOnFinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/news/NewsDialogOnFinishListener.java
+END

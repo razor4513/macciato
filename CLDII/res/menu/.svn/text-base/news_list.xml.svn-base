@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/editFeeds"
+        android:title="@string/dialog_news_edit_newsfeed"/>
+    <item
+        android:id="@+id/editCategory"
+        android:title="@string/dialog_news_categorysetting"/>
+    <item
+        android:id="@+id/deleteCategory"
+        android:title="@string/dialog_delete"/>
+    <item
+        android:id="@+id/refreshCategories"
+        android:title="@string/dialog_news_update"/>
+
+</menu>

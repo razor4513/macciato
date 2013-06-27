@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/crypto
+END
+Apg.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/crypto/Apg.java
+END
+None.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/crypto/None.java
+END
+PgpData.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/crypto/PgpData.java
+END
+CryptoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/crypto/CryptoProvider.java
+END

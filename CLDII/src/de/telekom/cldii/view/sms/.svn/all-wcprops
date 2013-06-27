@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms
+END
+SmsComposeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms/SmsComposeActivity.java
+END
+SmsDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms/SmsDetailsActivity.java
+END
+RefreshListDataTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms/RefreshListDataTask.java
+END
+SmsDialogSelectNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms/SmsDialogSelectNumber.java
+END
+SmsListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/sms/SmsListActivity.java
+END

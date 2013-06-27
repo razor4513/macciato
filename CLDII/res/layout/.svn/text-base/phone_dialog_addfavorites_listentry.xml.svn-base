@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contactDisplayNameTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?news_listitem"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:textColor="?news_listtext"
+    android:textSize="17sp"
+    android:typeface="sans" >
+
+</TextView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cldii="http://schemas.android.com/apk/res/de.telekom.cldii"
+    android:id="@+id/newsListItemLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/categoryTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6.67dp"
+        android:background="?list_titleBg"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="4.67dp"
+        android:textColor="?list_line_category"
+        android:textSize="21.33sp"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/seperatorCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?list_seperator_category"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp" />
+
+    <TextView
+        android:id="@+id/newsDate"
+        android:layout_width="fill_parent"
+        android:layout_height="35.3dp"
+        android:background="?list_line_datebg"
+        android:gravity="center"
+        android:text="@string/news_detail_time"
+        android:textColor="?list_line_date"
+        android:textSize="13.33sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/newsListDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.67dp"
+        android:background="?separator" />
+
+    <LinearLayout
+        android:id="@+id/newsListEntry"
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:background="?news_listitem"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/newsThumbnailBg"
+            android:layout_width="72.67dp"
+            android:layout_height="78dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="9.33dp"
+            android:layout_marginRight="8.67dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/d_background_thumbnail"
+            android:padding="0dp" >
+
+            <ImageView
+                android:id="@+id/newsThumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="4.67dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="4.67dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_rss" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/newsTexts"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="9.33dp"
+            android:layout_marginTop="10dp" >
+
+            <de.telekom.cldii.widget.TextViewMultilineEllipse
+                android:id="@+id/newsTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                cldii:additonalLineSpace="2.0"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/news_detail_title"
+                android:textColor="?header_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/newsFeed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/newsThumbnailBg"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/news_detail_feed"
+                android:textColor="?news_listtext"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

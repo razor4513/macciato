@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/macciato/!svn/ver/7/k9mail/tests
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/macciato/!svn/ver/7/k9mail/tests/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/macciato/!svn/ver/7/k9mail/tests/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/macciato/!svn/ver/7/k9mail/tests/project.properties
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/macciato/!svn/ver/7/k9mail/tests/ant.properties
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/macciato/!svn/ver/7/k9mail/tests/proguard.cfg
+END

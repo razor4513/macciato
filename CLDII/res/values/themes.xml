@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <attr name="backgroundColor" format="reference" />
+    <attr name="gridTextColor" format="reference" />
+    <attr name=?grid_plates" format="reference" />
+    <attr name="timeColor" format="reference" />
+    <attr name="titleTextColor" format="reference" />
+    <attr name="unreadTitleTextColor" format="reference" />
+    <attr name="list_letterBg" format="reference" />
+    <attr name=?separator" format="reference" />
+    -->
+
+
+    <!-- old start -->
+    <attr name="blackWhiteColor" format="reference" />
+    <attr name="gridPlateBg" format="reference" />
+    <attr name="gridPlateFavBg" format="reference" />
+    <attr name="gridPageIndicator_active" format="reference" />
+    <attr name="gridPageIndicator_inactive" format="reference" />
+    <attr name="tbarLeftButton" format="reference" />
+    <attr name="tbarLeftButtonHidden" format="reference" />
+    <attr name="tbarLeftHome" format="reference" />
+    <attr name="tbarRightButton" format="reference" />
+    <attr name="tbarRightButtonHidden" format="reference" />
+    <attr name="tbarRightMouth" format="reference" />
+    <attr name="tbar" format="reference" />
+    <attr name="bbarLeftButton" format="reference" />
+    <attr name="bbarRightButton" format="reference" />
+    <attr name="news_listitem" format="reference" />
+    <attr name="news_listtext" format="reference" />
+    <attr name="cldButton" format="reference" />
+    <attr name="cldCheckBox" format="reference" />
+    <attr name="cldDlButton" format="reference" />
+    <attr name="cldDlIcon" format="reference" />
+    <attr name="detail_actionButton" format="reference" />
+    <attr name="detail_actionBg" format="reference" />
+    <attr name="detail_callButton" format="reference" />
+    <attr name="detail_sliderBubble" format="reference" />
+    <attr name="detail_sliderThumb" format="reference" />
+    <attr name="detail_sliderLeftButton" format="reference" />
+    <attr name="detail_sliderRightButton" format="reference" />
+    <attr name="detail_sliderStripe" format="reference" />
+    <attr name="detail_sliderBg" format="reference" />
+    <attr name="detail_composeLeftButton" format="reference" />
+    <attr name="detail_composeRightButton" format="reference" />
+    <attr name="list_titleBg" format="reference" />
+    <attr name="gestureOverlayBg" format="reference" />
+    <attr name="gestureOverlaySpeechBalloon" format="reference" />
+    <attr name="gestureOverlayMouth" format="reference" />
+    <attr name="gestureOverlayMouthCrossed" format="reference" />
+    <attr name="icon_send" format="reference" />
+    <attr name="icon_discard" format="reference" />
+    <attr name="syncSpinnerStyle" format="reference" />
+    <attr name="icon_arrowleft" format="reference" />
+    <attr name="icon_arrowright" format="reference" />
+    <!-- old end -->
+
+    <attr name="header_button" format="reference" />
+    <attr name="header_title" format="reference" />
+    <attr name="grid_plates" format="reference" />
+    <attr name="list_from" format="reference" />
+    <attr name="list_time" format="reference" />
+    <attr name="list_line_category" format="reference" />
+    <attr name="list_seperator_category" format="reference" />
+    <attr name="list_text_old" format="reference" />
+    <attr name="list_text_new" format="reference" />
+    <attr name="list_line_date" format="reference" />
+    <attr name="detail_from" format="reference" />
+    <attr name="detail_time" format="reference" />
+    <attr name="detail_subject" format="reference" />
+    <attr name="detail_text" format="reference" />
+    <attr name="detail_plates_active" format="reference" />
+    <attr name="detail_plates_inactive" format="reference" />
+    <attr name="bbar_text" format="reference" />
+    <!-- extra -->
+    <attr name="background" format="reference" />
+    <attr name="separator" format="reference" />
+    <attr name="detail_slidertext" format="reference" />
+    <attr name="list_line_datebg" format="reference" />
+
+    <style name="Theme.CLDII" parent="android:Theme.Light.NoTitleBar">
+
+        <!--
+        <item name="backgroundColor">@color/background</item>
+        <item name="gridTextColor">@color/grid_text</item>
+        <item name=?grid_plates">@color/grid_text</item>
+        <item name="timeColor">@color/time_color</item>
+        <item name="titleTextColor">?header_title</item>
+        <item name="unreadTitleTextColor">?header_title</item>
+        <item name="list_letterBg">@color/phone_letterbg</item>
+        <item name=?separator">?separator</item>
+        -->
+
+
+        <!-- old start -->
+        <item name="blackWhiteColor">@android:color/black</item>
+        <item name="gridPlateBg">@drawable/day_grid_plate_bg</item>
+        <item name="gridPlateFavBg">@drawable/day_grid_plate_favs_bg</item>
+        <item name="gridPageIndicator_active">@drawable/pageindicator_active</item>
+        <item name="gridPageIndicator_inactive">@drawable/pageindicator_inactive</item>
+        <item name="tbarLeftButton">@drawable/day_tbar_leftbutton</item>
+        <item name="tbarLeftButtonHidden">@drawable/d_tbar_left_hidden</item>
+        <item name="tbarRightButton">@drawable/day_tbar_rightbutton</item>
+        <item name="tbarRightButtonHidden">@drawable/d_tbar_right_hidden</item>
+        <item name="tbar">@drawable/d_tbar</item>
+        <item name="tbarLeftHome">@drawable/d_tbar_left_home</item>
+        <item name="tbarRightMouth">@drawable/d_tbar_right_mouth</item>
+        <item name="bbarLeftButton">@drawable/day_bbar_leftbutton</item>
+        <item name="bbarRightButton">@drawable/day_bbar_rightbutton</item>
+        <item name="news_listitem">@drawable/day_newslistitem</item>
+        <item name="news_listtext">@drawable/day_newslisttext</item>
+        <item name="cldButton">@drawable/day_button</item>
+        <item name="cldDlButton">@drawable/day_dlbutton</item>
+        <item name="cldDlIcon">@drawable/day_dlbuttonicon</item>
+        <item name="cldCheckBox">@drawable/day_checkbox</item>
+        <item name="detail_actionBg">@drawable/d_sms_actionbar_background</item>
+        <item name="detail_actionButton">@drawable/day_sms_actionbar_button</item>
+        <item name="detail_callButton">@drawable/day_sms_actionbar_callbutton</item>
+        <item name="detail_sliderBubble">@drawable/d_slider_bubble</item>
+        <item name="detail_sliderThumb">@drawable/day_slider_thumb</item>
+        <item name="detail_sliderLeftButton">@drawable/day_slider_leftbutton</item>
+        <item name="detail_sliderRightButton">@drawable/day_slider_rightbutton</item>
+        <item name="detail_sliderStripe">@drawable/d_slider_stripe</item>
+        <item name="detail_sliderBg">@drawable/d_slider_background</item>
+        <item name="detail_composeLeftButton">@drawable/day_sms_compose_buttonleft</item>
+        <item name="detail_composeRightButton">@drawable/day_sms_compose_buttonright</item>
+        <item name="gestureOverlayBg">@drawable/d_overlay_bg</item>
+        <item name="gestureOverlaySpeechBalloon">@drawable/d_overlay_icon_speech</item>
+        <item name="gestureOverlayMouth">@drawable/d_overlay_icon_mouth</item>
+        <item name="gestureOverlayMouthCrossed">@drawable/d_overlay_icon_mouth_crossed</item>
+        <item name="syncSpinnerStyle">?android:attr/progressBarStyleSmallInverse</item>
+        <item name="icon_arrowleft">@drawable/d_scroll_left</item>
+        <item name="icon_arrowright">@drawable/d_scroll_right</item>
+        <!-- old end -->
+
+        <item name="header_button">@color/d_header_button</item>
+        <item name="header_title">@color/d_header_title</item>
+        <item name="grid_plates">@color/d_grid_plates</item>
+        <item name="list_from">@color/d_list_from</item>
+        <item name="list_time">@color/d_list_time</item>
+        <item name="list_titleBg">@drawable/d_background_title</item>
+        <item name="list_line_category">@color/d_list_line_category</item>
+        <item name="list_seperator_category">@color/d_list_seperator_category</item>
+        <item name="list_text_old">@color/d_list_text_old</item>
+        <item name="list_text_new">@color/d_list_text_new</item>
+        <item name="list_line_date">@color/d_list_line_date</item>
+        <item name="detail_from">@color/d_detail_from</item>
+        <item name="detail_time">@color/d_detail_time</item>
+        <item name="detail_subject">@color/d_detail_subject</item>
+        <item name="detail_text">@color/d_detail_text</item>
+        <item name="detail_plates_active">@color/d_detail_plates_active</item>
+        <item name="detail_plates_inactive">@color/d_detail_plates_inactive</item>
+        <item name="bbar_text">@color/d_bbar_text</item>
+
+        <!-- extra -->
+        <item name="background">@color/d_background</item>
+        <item name="separator">@color/d_separator</item>
+        <item name="detail_slidertext">@color/d_detail_text</item>
+        <item name="list_line_datebg">@color/d_list_line_datebg</item>
+    </style>
+
+    <style name="Theme.CLDII.Night" parent="android:Theme.Black.NoTitleBar">
+
+        <!--
+        <item name="backgroundColor">@color/background_night</item>
+        <item name="gridTextColor">@color/grid_text_night</item>
+        <item name=?grid_plates">@color/phone_fav_text</item>
+        <item name="timeColor">@color/time_color_night</item>
+        <item name="titleTextColor">?header_title_night</item>
+        <item name="unreadTitleTextColor">@color/unread_title_text_night</item>
+        <item name="list_letterBg">?separator_night</item>
+        <item name=?separator">@color/gesture_deactivated</item>
+        -->
+
+
+        <!-- old start -->
+        <item name="blackWhiteColor">@android:color/white</item>
+        <item name="gridPlateBg">@drawable/night_grid_plate_bg</item>
+        <item name="gridPlateFavBg">@drawable/night_grid_plate_favs_bg</item>
+        <item name="gridPageIndicator_active">@drawable/pageindicator_inactive</item>
+        <item name="gridPageIndicator_inactive">@drawable/pageindicator_active</item>
+        <item name="tbarLeftButton">@drawable/night_tbar_leftbutton</item>
+        <item name="tbarLeftButtonHidden">@drawable/n_tbar_left_hidden</item>
+        <item name="tbarRightButton">@drawable/night_tbar_rightbutton</item>
+        <item name="tbarRightButtonHidden">@drawable/n_tbar_right_hidden</item>
+        <item name="tbar">@drawable/n_tbar</item>
+        <item name="tbarLeftHome">@drawable/n_tbar_left_home</item>
+        <item name="tbarRightMouth">@drawable/n_tbar_right_mouth</item>
+        <item name="bbarLeftButton">@drawable/night_bbar_leftbutton</item>
+        <item name="bbarRightButton">@drawable/night_bbar_rightbutton</item>
+        <item name="news_listitem">@drawable/night_newslistitem</item>
+        <item name="news_listtext">@drawable/night_newslisttext</item>
+        <item name="cldButton">@drawable/night_button</item>
+        <item name="cldDlButton">@drawable/night_dlbutton</item>
+        <item name="cldDlIcon">@drawable/night_dlbuttonicon</item>
+        <item name="cldCheckBox">@drawable/night_checkbox</item>
+        <item name="detail_actionBg">@drawable/n_sms_actionbar_background</item>
+        <item name="detail_actionButton">@drawable/night_sms_actionbar_button</item>
+        <item name="detail_callButton">@drawable/night_sms_actionbar_callbutton</item>
+        <item name="detail_sliderBubble">@drawable/n_slider_bubble</item>
+        <item name="detail_sliderThumb">@drawable/night_slider_thumb</item>
+        <item name="detail_sliderLeftButton">@drawable/night_slider_leftbutton</item>
+        <item name="detail_sliderRightButton">@drawable/night_slider_rightbutton</item>
+        <item name="detail_sliderStripe">@drawable/n_slider_stripe</item>
+        <item name="detail_sliderBg">@drawable/n_slider_background</item>
+        <item name="detail_composeLeftButton">@drawable/night_sms_compose_buttonleft</item>
+        <item name="detail_composeRightButton">@drawable/night_sms_compose_buttonright</item>
+        <item name="list_titleBg">@drawable/n_background_title</item>
+        <item name="gestureOverlayBg">@drawable/n_overlay_bg</item>
+        <item name="gestureOverlaySpeechBalloon">@drawable/n_overlay_icon_speech</item>
+        <item name="gestureOverlayMouth">@drawable/n_overlay_icon_mouth</item>
+        <item name="gestureOverlayMouthCrossed">@drawable/n_overlay_icon_mouth_crossed</item>
+        <item name="syncSpinnerStyle">?android:attr/progressBarStyleSmall</item>
+        <item name="icon_arrowleft">@drawable/n_scroll_left</item>
+        <item name="icon_arrowright">@drawable/n_scroll_right</item>
+        <!-- old end -->
+        <item name="header_button">@color/n_header_button</item>
+        <item name="header_title">@color/n_header_title</item>
+        <item name="grid_plates">@color/n_grid_plates</item>
+        <item name="list_from">@color/n_list_from</item>
+        <item name="list_time">@color/n_list_time</item>
+        <item name="list_line_category">@color/n_list_line_category</item>
+        <item name="list_seperator_category">@color/n_list_seperator_category</item>
+        <item name="list_text_old">@color/n_list_text_old</item>
+        <item name="list_text_new">@color/n_list_text_new</item>
+        <item name="list_line_date">@color/n_list_line_date</item>
+        <item name="detail_from">@color/n_detail_from</item>
+        <item name="detail_time">@color/n_detail_time</item>
+        <item name="detail_subject">@color/n_detail_subject</item>
+        <item name="detail_text">@color/n_detail_text</item>
+        <item name="detail_plates_active">@color/n_detail_plates_active</item>
+        <item name="detail_plates_inactive">@color/n_detail_plates_inactive</item>
+        <item name="bbar_text">@color/n_bbar_text</item>
+        <!-- extra -->
+        <item name="background">@color/n_background</item>
+        <item name="separator">@color/n_separator</item>
+        <item name="detail_slidertext">@color/n_detail_text</item>
+        <item name="list_line_datebg">@color/n_list_line_datebg</item>
+    </style>
+
+</resources>

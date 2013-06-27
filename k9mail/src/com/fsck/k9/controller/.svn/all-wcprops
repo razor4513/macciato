@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller
+END
+MessagingController.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessagingController.java
+END
+MessageDateComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessageDateComparator.java
+END
+MessagingControllerPushReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessagingControllerPushReceiver.java
+END
+MessageRemovalListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessageRemovalListener.java
+END
+MessagingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessagingListener.java
+END
+MessageRetrievalListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/controller/MessageRetrievalListener.java
+END

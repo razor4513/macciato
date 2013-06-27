@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail
+END
+FetchProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/FetchProfile.java
+END
+Folder.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Folder.java
+END
+Flag.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Flag.java
+END
+Multipart.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Multipart.java
+END
+MessagingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/MessagingException.java
+END
+PushReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/PushReceiver.java
+END
+Transport.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Transport.java
+END
+Pusher.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Pusher.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Message.java
+END
+ServerSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/ServerSettings.java
+END
+Body.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Body.java
+END
+Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Store.java
+END
+CertificateValidationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/CertificateValidationException.java
+END
+ConnectionSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/ConnectionSecurity.java
+END
+AuthenticationFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/AuthenticationFailedException.java
+END
+Authentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Authentication.java
+END
+BodyPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/BodyPart.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Address.java
+END
+Part.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/Part.java
+END

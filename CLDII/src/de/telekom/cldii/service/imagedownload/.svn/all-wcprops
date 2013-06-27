@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/imagedownload
+END
+RSSImageRetrieverItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/imagedownload/RSSImageRetrieverItem.java
+END
+RSSImageRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/imagedownload/RSSImageRetriever.java
+END
+RSSImageRetrieverOnCompleteListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/imagedownload/RSSImageRetrieverOnCompleteListener.java
+END
+NewsImageDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/service/imagedownload/NewsImageDownloadService.java
+END

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/tutorial"
+        android:title="@string/menue_tutorial"/>
+    <item
+        android:id="@+id/legal_notice"
+        android:title="@string/menue_legal_notice"/>
+    <item
+        android:id="@+id/dayNight"
+        android:title="@string/menue_day_night"/>
+
+</menu>

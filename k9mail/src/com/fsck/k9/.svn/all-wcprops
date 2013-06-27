@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9
+END
+K9.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/K9.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/Identity.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/Account.java
+END
+BaseAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/BaseAccount.java
+END
+SearchSpecification.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/SearchSpecification.java
+END
+EmailAddressValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/EmailAddressValidator.java
+END
+EmailReceivedIntent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/EmailReceivedIntent.java
+END
+Preferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/Preferences.java
+END
+EmailAddressAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/EmailAddressAdapter.java
+END
+SearchAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/SearchAccount.java
+END
+NotificationSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/NotificationSetting.java
+END
+FontSizes.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/FontSizes.java
+END
+AccountStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/AccountStats.java
+END

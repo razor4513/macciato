@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cldii="http://schemas.android.com/apk/res/de.telekom.cldii"
+    android:id="@+id/mailListItemLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mailSeparatorDate"
+        android:layout_width="fill_parent"
+        android:layout_height="35.3dp"
+        android:background="?list_line_datebg"
+        android:gravity="center"
+        android:text="@string/news_detail_time"
+        android:textColor="?list_line_date"
+        android:textSize="13.33sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/mailListDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.67dp"
+        android:background="?separator" />
+
+    <RelativeLayout
+        android:id="@+id/mailListEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?news_listitem"
+        android:orientation="horizontal"
+        android:paddingBottom="22dp"
+        android:paddingTop="20.67dp" >
+
+        <RelativeLayout
+            android:id="@+id/thumbnailContainer"
+            android:layout_width="73.33dp"
+            android:layout_height="86.00dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/d_sms_photo_bg" >
+
+            <ImageView
+                android:id="@+id/contactThumbnail"
+                android:layout_width="60dp"
+                android:layout_height="63dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginLeft="7.3dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/contact_center_cropped" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mailTexts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/thumbnailContainer"
+            android:layout_alignTop="@id/thumbnailContainer"
+            android:layout_marginBottom="-2dp"
+            android:layout_marginTop="-4dp"
+            android:layout_toRightOf="@id/thumbnailContainer"
+            android:paddingRight="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/mailTextHeadline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="0.67dp" >
+
+                <LinearLayout
+                    android:id="@+id/mailTextHeadlineTopRightSection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/replyImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="6.00dp"
+                        android:src="@drawable/d_ic_reply"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/clockImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="6.00dp"
+                        android:paddingRight="6.00dp"
+                        android:src="@drawable/d_ic_clock" />
+
+                    <TextView
+                        android:id="@+id/mailTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="?news_listtext"
+                        android:textSize="14.67sp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/contactName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@id/mailTextHeadlineTopRightSection"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="?news_listtext"
+                    android:textSize="14.67sp"
+                    android:textStyle="normal"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <de.telekom.cldii.widget.TextViewMultilineEllipse
+                android:id="@+id/mailContentShort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/mailTextHeadline"
+                android:layout_marginTop="8dp"
+                cldii:additonalLineSpace="3.33"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="?header_title"
+                android:textSize="16.00sp"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter
+END
+PhoneNumberAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/PhoneNumberAdapter.java
+END
+PhoneGridViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/PhoneGridViewPagerAdapter.java
+END
+ContactLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/ContactLoader.java
+END
+PhoneDialogAddFavoritesAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/PhoneDialogAddFavoritesAdapter.java
+END
+PhoneGridCellContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/PhoneGridCellContent.java
+END
+PhoneAddressbookListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/phone/adapter/PhoneAddressbookListAdapter.java
+END

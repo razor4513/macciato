@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/createAccount"
+        android:title="@string/mail_menu_newaccount"/>
+    <item
+        android:id="@+id/mailUpdateInterval"
+        android:title="@string/mail_menu_update_interval"/>
+</menu>

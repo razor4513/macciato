@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoRead</string>
+    <string name="need_tts">AutoRead benötigt ein Text to Speech Modul. Wollen Sie das jetzt installieren?</string>
+    <string name="exception_title">Fehler</string>
+    <string name="exception_message">Es gab ein Problem bei der Ausführung! Ein Stacktrace wurde auf die SD Karte geschrieben.</string>
+
+    <!-- Buttons -->
+    <string name="button_gesturemode">Vorlesen</string>
+    <string name="button_home">Startseite</string>
+    <string name="button_guimode">Eingabe</string>
+    <string name="button_dialpad">Tastatur</string>
+    <string name="button_addressbook">Kontakte</string>
+    <string name="button_favorites">Favoriten</string>
+
+    <!-- Sections -->
+    <string name="section_main">Hauptmenü</string>
+    <string name="section_phonefavs">Telefon Favoriten</string>
+    <string name="section_phone">Telefon</string>
+    <string name="section_sms">SMS</string>
+    <string name="section_email">E-Mail</string>
+    <string name="section_news">News</string>
+    <string name="section_news_details">Newsdetails</string>
+
+    <!-- Menus -->
+    <string name="menue_day_night">Tag/Nacht</string>
+    <string name="menue_tutorial">Tutorial</string>
+    <string name="menue_legal_notice">Impressum</string>
+
+    <!-- Prompts and confirmations -->
+    <string name="prompt_speakmode">Vorlesemodus gestartet</string>
+    <string name="prompt_guimode">Grafikmodus gestartet</string>
+    <string name="confirm_delete_category">Wollen Sie wirklich die Kategorie %1$s löschen?</string>
+    <string name="confirm_delete_sms">Wollen Sie wirklich diese SMS löschen?</string>
+    <string name="confirm_delete_mail">Wollen Sie wirklich diese E-Mail löschen?</string>
+    <string name="confirm_yes">Ja</string>
+    <string name="confirm_no">Nein</string>
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Abbrechen</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_options">Optionen</string>
+    <string name="dialog_delete">Löschen</string>
+    <string name="dialog_news_categorysetting">Kategorie Einstellungen</string>
+    <string name="dialog_news_newcategory">Neue Kategorie</string>
+    <string name="dialog_news_image">Bild</string>
+    <string name="dialog_news_imagesource">Wähle die Quelle</string>
+    <string name="dialog_news_source_predefined">Vordefinierte Icons</string>
+    <string name="dialog_news_source_gallery">Foto Gallery</string>
+    <string name="dialog_news_add_newscategory">Kategorie hinzufügen</string>
+    <string name="dialog_news_add_categoryname">Name der Kategorie</string>
+    <string name="dialog_news_add_intervaldescription_head">News abrufen:</string>
+    <string name="dialog_news_add_intervaldescription">(Aktualisierung findet nur statt wenn Anwendung aktiv)</string>
+    <string name="dialog_news_add_feed">Eigene</string>
+    <string name="dialog_news_add_feedurl">Newsfeed URL</string>
+    <string name="dialog_news_add_feedurl_error">Die eingegebene URL ist keine gültige ATOM/RSS URL!</string>
+    <string name="dialog_news_add_feedurlhttp">http://</string>
+    <string name="dialog_news_edit_newscategory">Kategorie bearbeiten</string>
+    <string name="dialog_news_edit_newsfeed">Newsfeeds bearbeiten</string>
+    <string name="dialog_news_update">Aktualisieren</string>
+    <string name="dialog_phone_add_favorites">Zu Favoriten hinzufügen</string>
+    <string name="dialog_phone_save_favorites">Favoriten speichern…</string>
+    <string name="dialog_phone_favorites_save_success">Favoriten erfolgreich gespeichert.</string>
+    <string name="dialog_phone_favorites_save_fail">Fehler beim Speichern der Favoriten.</string>
+    <string name="dialog_news_urlcheck_title">Überprüfe Newsfeed URL</string>
+    <string name="dialog_news_urlcheck_text">Lade. Bitte warten…</string>
+    <string name="dialog_loading_favs">Favoriten werden geladen…</string>
+    <string name="dialog_loading_sms">SMS werden geladen…</string>
+    <string name="dialog_you_need_a_internet_connection">Sie können diesen Menüpunkt ohne Internetverbindung nur eingeschränkt nutzen. Bitte aktivieren Sie Internet in den Android Systemeinstellungen.</string>
+    <string name="dialog_add_mail_account">Noch kein E-Mail Konto eingerichtet. Möchten Sie jetzt ein Konto einrichten?</string>
+
+    <string-array name="dialog_news_updateintervals">
+        <item>Alle 5 Minuten</item>
+        <item>Alle 10 Minuten</item>
+        <item>Alle 15 Minuten</item>
+        <item>Alle 30 Minuten</item>
+        <item>Alle 45 Minuten</item>
+        <item>Alle 1 Stunde</item>
+        <item>Alle 3 Stunden</item>
+        <item>Beim Start der App</item>
+    </string-array>
+
+    <!-- Context menus -->
+    <string name="contextmenu_addcontact">Kontakt hinzufügen</string>
+    <string name="contextmenu_editcontact">Kontakt bearbeiten</string>
+    <string name="contextmenu_delete">Löschen</string>
+    <string name="contextmenu_markunread">Als ungelesen markieren</string>
+    <string name="contextmenu_markread">Als gelesen markieren</string>
+    <string name="contextmenu_forward">Weiterleiten</string>
+    <string name="contextmenu_reply">Antworten</string>
+
+    <!-- Phone -->
+    <string name="phone_add_favorite">Favoriten hinzufügen</string>
+    <string name="phone_remove_favorite">aus der Favoritenliste entfernen</string>
+    <string name="phone_change_defaultnumber">Standardnummer ändern</string>
+    <string name="phone_defaultnumber">(Primär)</string>
+    <string name="phone_calling">%1$s anrufen</string>
+    <string name="phone_section_phonefavorites">Favoriten</string>
+    <string name="phone_section_phonecontacts">Kontakte</string>
+    <string name="phone_no_contacts">Keine Kontakte/Treffer vorhanden.</string>
+    <string name="phone_number_home">privat</string>
+    <string name="phone_number_homefax">privat fax</string>
+    <string name="phone_number_mobile">mobil</string>
+    <string name="phone_number_other">andere</string>
+    <string name="phone_number_work">arbeit</string>
+    <string name="phone_number_workfax">arbeit fax</string>
+    <string name="phone_number_workmobile">arbeit mobil</string>
+    <string name="phone_number_unknown">unbekannt</string>
+    <string name="phone_no_numbers">Es sind leider keine Kontakte mit Telefonnummern vorhanden.</string>
+
+    <!-- News -->
+    <string name="news_detail_title">Titel</string>
+    <string name="news_detail_time">Zeit</string>
+    <string name="news_detail_feed">Feed</string>
+    <string name="news_detail_content">Inhalt</string>
+    <string name="news_detail_url">Zum Originalartikel</string>
+    <string name="news_no_news">Keine News für diese Kategorie vorhanden.</string>
+    <string name="news_no_category">Keine Kategorie vorhanden.</string>
+    <string name="news_add_category">Kategorie hinzufügen</string>
+
+    <!-- Sms -->
+    <string name="sms_no_sms">Keine SMS vorhanden.</string>
+    <string name="sms_detail_call">Anrufen</string>
+    <string name="sms_detail_reply">Antworten</string>
+    <string name="sms_detail_delete">Löschen</string>
+    <string name="sms_detail_recipient">Telefonnummer</string>
+    <string name="sms_detail_content">Inhalt</string>
+    <string name="sms_detail_send">Senden</string>
+    <string name="sms_detail_cancel">Verwerfen</string>
+    <string name="sms_detail_to">An:</string>
+    <string name="sms_prompt_smssendsuccessful">SMS erfolgreich gesendet.</string>
+    <string name="sms_prompt_smssendfailed">SMS Versand fehlgeschlagen.</string>
+    <string name="sms_prompt_timeout">Zum Versand angewiesen, aber Zeit abgelaufen.</string>
+    <string name="sms_progress_sending">Sende SMS…</string>
+    <string name="sms_replyViaSms">Antwort mit SMS</string>
+    <string name="sms_replyViaMail">Antwort mit E-Mail</string>
+    <string name="sms_selectNumber">Wähle Empfänger</string>
+    <string name="sms_menu_compose">Neue SMS</string>
+
+    <!-- Mail -->
+    <string name="mail_no_mail">Keine E-Mails vorhanden.</string>
+    <string name="mail_detail_to">An:</string>
+    <string name="mail_detail_bcc">Kopie:</string>
+    <string name="mail_detail_subject">Betreff:</string>
+    <string name="mail_compose_reply">Aw:</string>
+    <string name="mail_compose_forward">Fwd:</string>
+    <string name="mail_menu_compose">Neue E-Mail</string>
+    <string name="mail_menu_update">Aktualisieren</string>
+    <string name="mail_menu_update_interval">Update Intervall</string>
+    <string name="mail_menu_newaccount">Neues Mailkonto</string>
+
+    <!-- Mail updates -->
+    <string name="mail_update_interval">Mail Abruf Intervall</string>
+    <string name="mail_update_interval_onstart">Beim Start der App</string>
+    <string name="mail_update_interval_15_min">15 Minuten</string>
+    <string name="mail_update_interval_30_min">30 Minuten</string>
+    <string name="mail_update_interval_60_min">60 Minuten</string>
+    <string name="mail_update_interval_120_min">2 Stunden</string>
+
+    <!-- Mail menu -->
+    <string name="mail_manage_accounts">Konten verwalten</string>
+    <string name="mail_manage_accounts_delete">Löschen</string>
+    <string name="mail_manage_accounts_incoming">Posteingang</string>
+    <string name="mail_manage_accounts_outgoing">Postausgang</string>
+    <string name="mail_manage_accounts_extended">Erweitert</string>
+
+    <!-- TTS -->
+    <string name="tts_phone">Telefon</string>
+    <string name="tts_sms">SMS</string>
+    <string name="tts_email">Iimäil</string>
+    <string name="tts_news">Njuus</string>
+    <string name="tts_sleepmode">Schlafmodus</string>
+    <string name="tts_listend">Ende der Nachrichten</string>
+    <string name="tts_listbegin">Beginn der Nachrichten</string>
+    <string name="tts_category">Kategorie</string>
+    <string name="tts_categories">Kategorien</string>
+    <string name="tts_news_categories">Njuus Kategorien</string>
+    <string name="tts_detailview"> - Details</string>
+    <string name="tts_speakmode">Vorlee-semodus</string>
+    <string name="tts_section_phonefavs">Favoriten</string>
+    <string name="tts_phone_you_have">Sie haben</string>
+    <string name="tts_phone_favorites">Telefon-Favoriten</string>
+    <string name="tts_phone_shall_i_read">Soll ich die Liste jetzt vorlesen?</string>
+    <string name="tts_phone_ortoaddressbook">oder möchten Sie einen anderen Kontakt aus dem Adressbuch auswählen?</string>
+    <string name="tts_phone_orbacktomainmenu">oder zurück zum Hauptmenü?</string>
+    <string name="tts_backtomainmenu">Wollen Sie zurück zum Hauptmenü?</string>
+    <string name="tts_orshallireadthelistagain">oder soll ich die Liste erneut vorlesen?</string>
+    <string name="tts_phone_shallicallcontact1">Möchten Sie jetzt mit</string>
+    <string name="tts_phone_shallicallcontact2">verbunden werden?</string>
+    <string name="tts_phone_orwith">Oder mit</string>
+    <string name="tts_phone_readfavsagain">Soll ich die Favoriten erneut vorlesen?</string>
+    <string name="tts_phone_nofavs">Sie haben keine Telefon-Favoriten. Möchten Sie jetzt einen Kontakt aus dem Adressbuch auswählen?</string>
+    <string name="tts_from">Von</string>
+    <string name="tts_optionsmenu">Optionsmenü</string>
+    <string name="tts_optionsmenu_next">Nächste</string>
+    <string name="tts_optionsmenu_previous">Vorherige</string>
+    <string name="tts_optionsmenu_delete">Löschen</string>
+    <string name="tts_optionsmenu_call">Anrufen</string>
+    <string name="tts_optionsmenu_backtosmslist">Zurück zur SMS Liste</string>
+    <string name="tts_optionsmenu_backtonewslist">Zurück zur Njuus Liste</string>
+    <string name="tts_optionsmenu_backtomaillist">Zurück zur Iimäil Liste</string>
+    <string name="tts_optionsmenu_mainmenu">Zurück zum Hauptmenü</string>
+    <string name="tts_optionsmenu_help">Hilfe</string>
+    <string name="tts_sms_delete_successful">SMS erfolgreich gelöscht.</string>
+    <string name="tts_mail_delete_successful">Iimäil erfolgreich gelöscht.</string>
+    <string name="tts_questionmark">Fragezeichen</string>
+    <string name="tts_addressbook">Telefonkontakte - sortiert nach Anfangsbuchstaben der Vornamen</string>
+    <string name="tts_numbersof">Telefonnummern von </string>
+    <string name="tts_phone_number_home">privat</string>
+    <string name="tts_phone_number_homefax">privat fax</string>
+    <string name="tts_phone_number_mobile">mobil</string>
+    <string name="tts_phone_number_other">andere</string>
+    <string name="tts_phone_number_work">arbeit</string>
+    <string name="tts_phone_number_workfax">arbeit fax</string>
+    <string name="tts_phone_number_workmobile">arbeit mobil</string>
+    <string name="tts_phone_number_unknown">unbekannt</string>
+    <string name="tts_phone_doyouwanttocall">Wollen sie jetzt %s anrufen?</string>
+    <string name="tts_phone_or">Oder %s ?</string>
+    <string name="tts_phone_ordoyouwanttogoback">Oder wollen Sie zurück gehen?</string>
+    <string name="tts_phone_contactswithfirstletter">Kontakte mit Anfangsbuchstabe </string>
+    <string name="tts_no_email">Keine Iimäil vorhanden.</string>
+    <string name="tts_no_phonenumber">Keine dazugehörige Telefonnummer im Adressbuch.</string>
+
+    <!-- Gestures Overlay -->
+    <string name="gesture_overlay_defaulttext">Vorlesen</string>
+    <string name="gesture_overlay_silence">Ruhe</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Info</string>
+    <string name="tutorial_summary">Nutzen Sie mobil und unterwegs E-Mail, SMS, Telefonie und News Dienste.</string>
+    <string name="tutorial_speakmode">Schalten Sie in den Vorlesemodus. AutoRead liest Ihnen dann alle Inhalte vor.</string>
+    <string name="tutorial_tts">Neben der auf Ihrem Smartphone bereits vorhandenen Stimmen zur Sprachausgabe können Sie sich auch eine besser verständliche Stimme aus Google Play laden.</string>
+    <string name="tutorial_tts2">Bitte achten Sie darauf, die entsprechende Sprachausgabe in den Einstellungen unter Spracheingabe/-ausgabe zu aktivieren.</string>
+    <string name="tutorial_gestures">Steuern Sie die Applikation im Vorlesemodus mit Hilfe einfacher Gesten.</string>
+    <string name="tutorial_nightmode">Sie können im Optionsmenü zwischen Tag- und Nachtmodus umschalten.</string>
+    <string name="tutorial_stvo">Eine Nutzungen während der Autofahrt ist nur unter Beachtung der Vorgaben der Straßenverkehrsordnung (§ 23 Abs. 1a) zulässig.\n\nDanach ist dem Fahrer eine Benutzung eines Mobil- oder Autotelefons untersagt, wenn er hierfür das Mobiltelefon oder den Hörer des Autotelefons aufnimmt oder hält. Dies gilt nicht, wenn das Fahrzeug steht und bei Kraftfahrzeugen der Motor ausgeschaltet ist. Nutzen Sie entsprechende Vorrichtungen und Hilfsmittel, welche die Benutzung während der Fahrt erlauben.</string>
+    <string name="tutorial_show_again">Info nicht noch einmal anzeigen</string>
+    <string name="tutorial_download">Zum Download</string>
+    <string name="tutorial_continue">Weiter</string>
+    <string name="tutorial_back">Zurück</string>
+    <string name="tutorial_start">Start</string>
+
+    <!-- Gestures Tutorial -->
+    <string name="gestures_title">Gestensteuerung</string>
+    <string name="gestures_longtap">Tippen &amp; Halten</string>
+    <string name="gestures_longtap_event">Vorlesestop</string>
+    <string name="gestures_swipe">Wischen</string>
+    <string name="gestures_swipe_event">Vor/ Zurück</string>
+    <string name="gestures_roof">Dach</string>
+    <string name="gestures_roof_event">Startseite</string>
+    <string name="gestures_tap">Tap</string>
+    <string name="gestures_tap_event">Auswahl</string>
+    <string name="gestures_circle">Kreis</string>
+    <string name="gestures_circle_event">Anrufen</string>
+
+    <!-- Impressum -->
+    <string name="impressum_title">Impressum</string>
+    <string name="impressum_author">Deutsche Telekom</string>
+    <string name="impressum_version">Version 1.0</string>
+    <string name="impressum_year">2012</string>
+
+    <!-- Notifications -->
+    <string name="update_newsitems">Newsartikel werden aktualisiert…</string>
+    <string name="update_newsimages">Newsbilder werden geladen…</string>
+
+    <!-- Misc -->
+    <string name="plate_zero">0</string>
+    <string name="category">Kategorien</string>
+    <string name="placeholder_text">Platzhalter</string>
+    <string name="notavailable">Dienst derzeit nicht verfügbar.</string>
+    <string name="please_wait">Bitte warten…</string>
+    <string name="refresh_category">Aktualisiere Kategorie.</string>
+
+    <!-- Preferences -->
+    <string-array name="updateInterval">
+        <item name="1000">Jede Sekunde</item>
+        <item name="5000">Alle 5 Sekunden</item>
+        <item name="30000">Alle 30 Sekunden</item>
+        <item name="60000">Jede Minute</item>
+        <item name="300000">Alle 5 Minuten</item>
+    </string-array>
+    <string-array name="updateIntervalValues">
+        <item name="1000">1000</item>
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+    </string-array>
+    <string-array name="initialCategories">
+        <item name="cars">Auto und Motor</item>
+        <item name="culture">Kultur</item>
+        <item name="politics">Politik</item>
+        <item name="headlines">Schlagzeilen</item>
+        <item name="sports">Sport</item>
+        <item name="web">Webwelt</item>
+        <item name="science">Wissenschaft</item>
+    </string-array>
+
+</resources>

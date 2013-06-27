@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/global_topbarinclude"
+        android:layout_alignParentTop="true"
+        layout="@layout/global_topbar" />
+
+    <RelativeLayout
+        android:id="@+id/global_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/global_topbarinclude" >
+
+        <FrameLayout
+            android:id="@+id/bottomBarLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-6.5dp"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottomBarLayout"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:id="@+id/gestureOverlayBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="?background"
+            android:visibility="gone" >
+
+            <android.gesture.GestureOverlayView
+                android:id="@+id/gestureOverlay"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="11dp"
+                android:background="?gestureOverlayBg"
+                android:gestureColor="@color/magenta"
+                android:padding="0dp"
+                android:src="?gestureOverlaySpeechBalloon"
+                android:uncertainGestureColor="@color/magenta" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:id="@+id/gestureOverlayImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="66.67dp" />
+
+                    <TextView
+                        android:id="@+id/gestureOverlayTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="34.67dp"
+                        android:text="@string/gesture_overlay_defaulttext"
+                        android:textColor="?header_title"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </android.gesture.GestureOverlayView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

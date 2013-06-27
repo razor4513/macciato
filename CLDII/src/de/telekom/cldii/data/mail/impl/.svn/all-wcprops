@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl
+END
+MessageIdentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/MessageIdentifier.java
+END
+FullMailWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/FullMailWrapper.java
+END
+MailLoadingTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/MailLoadingTask.java
+END
+CompactMailWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/CompactMailWrapper.java
+END
+ReceivedDateComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/ReceivedDateComparator.java
+END
+MailDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/mail/impl/MailDataProvider.java
+END

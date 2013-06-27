@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news
+END
+INewsDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/INewsDataProvider.java
+END
+NewsItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/NewsItem.java
+END
+NewsFeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/NewsFeed.java
+END
+NewsCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/NewsCategory.java
+END

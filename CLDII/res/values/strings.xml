@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoRead</string>
+    <string name="need_tts">AutoRead needs an installed Text to Speech engine. Do you want to install it now? </string>
+    <string name="exception_title">Exception</string>
+    <string name="exception_message">There was something wrong! A stacktrace has been written to the sd card.</string>
+
+    <!-- Buttons -->
+    <string name="button_gesturemode">Voice Mode</string>
+    <string name="button_home">Home</string>
+    <string name="button_guimode">Input</string>
+    <string name="button_dialpad">Keypad</string>
+    <string name="button_addressbook">Address Book</string>
+    <string name="button_favorites">Favourites</string>
+
+    <!-- Sections -->
+    <string name="section_main">Main Menu</string>
+    <string name="section_phonefavs">Phone Favorites</string>
+    <string name="section_phone">Phone</string>
+    <string name="section_sms">SMS</string>
+    <string name="section_email">Email</string>
+    <string name="section_news">News</string>
+    <string name="section_news_details">News Details</string>
+
+    <!-- Menus -->
+    <string name="menue_day_night">Day/Night</string>
+    <string name="menue_tutorial">Tutorial</string>
+    <string name="menue_legal_notice">Terms of Use</string>
+
+    <!-- Prompts and confirmations -->
+    <string name="prompt_speakmode">Voice Mode active</string>
+    <string name="prompt_guimode">Graphic Mode active</string>
+    <string name="confirm_delete_category">Are you sure you want to delete the category %1$s?</string>
+    <string name="confirm_delete_sms">Are you sure you want to delete this sms?</string>
+    <string name="confirm_delete_mail">Are you sure you want to delete this mail?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Cancel</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_options">Options</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_news_categorysetting">Category Preferences</string>
+    <string name="dialog_news_newcategory">New Category</string>
+    <string name="dialog_news_image">Icon</string>
+    <string name="dialog_news_imagesource">Select Source</string>
+    <string name="dialog_news_source_predefined">Predefined Icons</string>
+    <string name="dialog_news_source_gallery">Photo Gallery</string>
+    <string name="dialog_news_add_newscategory">Add to Category</string>
+    <string name="dialog_news_add_categoryname">Name of Category</string>
+    <string name="dialog_news_add_intervaldescription_head">Updatefrequency</string>
+    <string name="dialog_news_add_intervaldescription">(Updates only occur when the app is active)</string>
+    <string name="dialog_news_add_feed">Custom</string>
+    <string name="dialog_news_add_feedurl">Newsfeed URL</string>
+    <string name="dialog_news_add_feedurl_error">The entered URL is not a valid ATOM/RSS URL!</string>
+    <string name="dialog_news_add_feedurlhttp">http://</string>
+    <string name="dialog_news_edit_newscategory">Edit Categories</string>
+    <string name="dialog_news_edit_newsfeed">Edit Newsfeeds</string>
+    <string name="dialog_news_update">Update</string>
+    <string name="dialog_phone_add_favorites">Add to Favourites</string>
+    <string name="dialog_phone_save_favorites">Save Favourites…</string>
+    <string name="dialog_phone_favorites_save_success">Favourites saved successfully</string>
+    <string name="dialog_phone_favorites_save_fail">Error encountered while saving favorites.</string>
+    <string name="dialog_news_urlcheck_title">Check Newsfeed URL</string>
+    <string name="dialog_news_urlcheck_text">Loading. Please wait…</string>
+    <string name="dialog_loading_favs">Loading Favourites…</string>
+    <string name="dialog_loading_sms">Loading SMS…</string>
+    <string name="dialog_you_need_a_internet_connection">Without an internet connection you can\'t use this section completely. Please activate internet in Android system settings.</string>
+    <string name="dialog_add_mail_account">No mail account configured. Do you want to add an account now?</string>
+
+    <string-array name="dialog_news_updateintervals">
+        <item>Every 5 minutes</item>
+        <item>Every 10 minutes</item>
+        <item>Every 15 minutes</item>
+        <item>Every 30 minutes</item>
+        <item>Every 45 minutes</item>
+        <item>Every 1 hour</item>
+        <item>Every 3 hours</item>
+        <item>Once at Start</item>
+    </string-array>
+
+    <!-- Context menus -->
+    <string name="contextmenu_addcontact">Add to Contacts</string>
+    <string name="contextmenu_editcontact">Edit Contact</string>
+    <string name="contextmenu_delete">Delete</string>
+    <string name="contextmenu_markunread">Mark as unread</string>
+    <string name="contextmenu_markread">Mark as read</string>
+    <string name="contextmenu_forward">Forward</string>
+    <string name="contextmenu_reply">Reply</string>
+
+    <!-- Phone -->
+    <string name="phone_add_favorite">Add to Favourite</string>
+    <string name="phone_remove_favorite">Remove from Favourites</string>
+    <string name="phone_change_defaultnumber">Change Primary Number</string>
+    <string name="phone_defaultnumber">(primary)</string>
+    <string name="phone_calling">Call %1$s</string>
+    <string name="phone_section_phonefavorites">Favorites</string>
+    <string name="phone_section_phonecontacts">Contacts</string>
+    <string name="phone_no_contacts">No contacts/results found.</string>
+    <string name="phone_number_home">private</string>
+    <string name="phone_number_homefax">private fax</string>
+    <string name="phone_number_mobile">mobile</string>
+    <string name="phone_number_other">other</string>
+    <string name="phone_number_work">work</string>
+    <string name="phone_number_workfax">work fax</string>
+    <string name="phone_number_workmobile">work mobile</string>
+    <string name="phone_number_unknown">unknown</string>
+    <string name="phone_no_numbers">There are no contact phone numbers.</string>
+
+    <!-- News -->
+    <string name="news_detail_title">Title</string>
+    <string name="news_detail_time">Time</string>
+    <string name="news_detail_feed">Feed</string>
+    <string name="news_detail_content">Content</string>
+    <string name="news_detail_url">To Original Article</string>
+    <string name="news_no_news">No News for this Category.</string>
+    <string name="news_no_category">No Category.</string>
+    <string name="news_add_category">Add to Categories</string>
+
+    <!-- Sms -->
+    <string name="sms_no_sms">No SMS.</string>
+    <string name="sms_detail_call">Call</string>
+    <string name="sms_detail_reply">Reply</string>
+    <string name="sms_detail_delete">Delete</string>
+    <string name="sms_detail_recipient">Phone number</string>
+    <string name="sms_detail_content">Content</string>
+    <string name="sms_detail_send">Send</string>
+    <string name="sms_detail_cancel">Cancel</string>
+    <string name="sms_detail_to">To:</string>
+    <string name="sms_prompt_smssendsuccessful">SMS delivered</string>
+    <string name="sms_prompt_smssendfailed">Failed to send</string>
+    <string name="sms_prompt_timeout">Failed to send due to timeout</string>
+    <string name="sms_progress_sending">Sending SMS…</string>
+    <string name="sms_replyViaSms">Reply by SMS</string>
+    <string name="sms_replyViaMail">Reply by Email</string>
+    <string name="sms_selectNumber">Select Recipient</string>
+    <string name="sms_menu_compose">New SMS</string>
+
+    <!-- Mail -->
+    <string name="mail_no_mail">No Emails.</string>
+    <string name="mail_detail_to">To:</string>
+    <string name="mail_detail_bcc">CC:</string>
+    <string name="mail_detail_subject">Subject:</string>
+    <string name="mail_compose_reply">Re:</string>
+    <string name="mail_compose_forward">Fwd:</string>
+    <string name="mail_menu_compose">Compose Email</string>
+    <string name="mail_menu_update">Update</string>
+    <string name="mail_menu_update_interval">Update interval</string>
+    <string name="mail_menu_newaccount">New Account</string>
+
+    <!-- Mail updates -->
+    <string name="mail_update_interval">Mail update interval</string>
+    <string name="mail_update_interval_onstart">Once at Start</string>
+    <string name="mail_update_interval_15_min">15 minutes</string>
+    <string name="mail_update_interval_30_min">30 minutes</string>
+    <string name="mail_update_interval_60_min">60 minutes</string>
+    <string name="mail_update_interval_120_min">2 hours</string>
+
+    <!-- Mail menu -->
+    <string name="mail_manage_accounts">Manage accounts</string>
+    <string name="mail_manage_accounts_delete">Delete</string>
+    <string name="mail_manage_accounts_incoming">Inbox</string>
+    <string name="mail_manage_accounts_outgoing">Sent box</string>
+    <string name="mail_manage_accounts_extended">Extended Settings</string>
+
+    <!-- TTS -->
+    <string name="tts_phone">Phone</string>
+    <string name="tts_sms">SMS</string>
+    <string name="tts_email">Email</string>
+    <string name="tts_news">News</string>
+    <string name="tts_sleepmode">Sleepmode</string>
+    <string name="tts_listend">End of entries.</string>
+    <string name="tts_listbegin">Begin of entries.</string>
+    <string name="tts_category">Category</string>
+    <string name="tts_categories">Categories</string>
+    <string name="tts_news_categories">News Categories</string>
+    <string name="tts_detailview">Detail view</string>
+    <string name="tts_speakmode">Read mode</string>
+    <string name="tts_section_phonefavs">phone favorites</string>
+    <string name="tts_phone_you_have">you have</string>
+    <string name="tts_phone_favorites">favorites</string>
+    <string name="tts_phone_shall_i_read">shall i read the list now?</string>
+    <string name="tts_phone_ortoaddressbook">or do you want to select a contact from the address book?</string>
+    <string name="tts_phone_orbacktomainmenu">or back to main menu?</string>
+    <string name="tts_backtomainmenu">Do you want to go back to main menu?</string>
+    <string name="tts_orshallireadthelistagain">or shall i read the list again?</string>
+    <string name="tts_phone_shallicallcontact1">Would you like to call</string>
+    <string name="tts_phone_shallicallcontact2"></string>
+    <string name="tts_phone_orwith">or with</string>
+    <string name="tts_phone_readfavsagain">Shall I read the favorites again?</string>
+    <string name="tts_phone_nofavs">You dont have any favorites. Do you want to select a contact from the address book?</string>
+    <string name="tts_from">From</string>
+    <string name="tts_optionsmenu">Options menu</string>
+    <string name="tts_optionsmenu_next">next</string>
+    <string name="tts_optionsmenu_previous">previous</string>
+    <string name="tts_optionsmenu_delete">delete</string>
+    <string name="tts_optionsmenu_call">call</string>
+    <string name="tts_optionsmenu_backtosmslist">back to sms list</string>
+    <string name="tts_optionsmenu_backtonewslist">back to news list</string>
+    <string name="tts_optionsmenu_backtomaillist">back to email list</string>
+    <string name="tts_optionsmenu_mainmenu">Main Menu</string>
+    <string name="tts_optionsmenu_help">help</string>
+    <string name="tts_sms_delete_successful">SMS successfully deleted.</string>
+    <string name="tts_mail_delete_successful">Email successfully deleted.</string>
+    <string name="tts_questionmark">Question Mark</string>
+    <string name="tts_addressbook">Phone contacts - sorted by first letter of forename</string>
+    <string name="tts_numbersof">Phone numbers of </string>
+    <string name="tts_phone_number_home">privat</string>
+    <string name="tts_phone_number_homefax">privat fax</string>
+    <string name="tts_phone_number_mobile">mobile</string>
+    <string name="tts_phone_number_other">other</string>
+    <string name="tts_phone_number_work">work</string>
+    <string name="tts_phone_number_workfax">work fax</string>
+    <string name="tts_phone_number_workmobile">work mobile</string>
+    <string name="tts_phone_number_unknown">unknown</string>
+    <string name="tts_phone_doyouwanttocall">Do yo want to call %s ?</string>
+    <string name="tts_phone_or">Or %s ?</string>
+    <string name="tts_phone_ordoyouwanttogoback">Or do you want to go back?</string>
+    <string name="tts_phone_contactswithfirstletter">Contacts with first letter</string>
+    <string name="tts_no_email">No Emails.</string>
+    <string name="tts_no_phonenumber">No phone number for this entry.</string>
+
+    <!-- Gestures Overlay -->
+    <string name="gesture_overlay_defaulttext">Speech Mode</string>
+    <string name="gesture_overlay_silence">Pause</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_summary">Use E-Mail, SMS, Telephone and News services mobile and on the go.</string>
+    <string name="tutorial_speakmode">Switch to Speech Mode and AutoRead will read all contents for you.</string>
+    <string name="tutorial_tts">In addition to the pre-installed simulated voice you can also download a higher quality version from Google Play.</string>
+    <string name="tutorial_tts2">Please be sure to activate the appropriate voice in the system settings.</string>
+    <string name="tutorial_gestures">Control your application with simple gestures in speech mode.</string>
+    <string name="tutorial_nightmode">Switch between day and night mode in the option menu.</string>
+    <string name="tutorial_stvo">Use while driving only permitted in accordance with the rules of Straßenverkehrsordnung (§ 23 Abs. 1a).\n\nThese state that the driver is prohibited from using a cell phone or car phone if such use requires the phone or receiver lifted or held. This is not applicable when the vehicle is stationary and the motor is turned off. Please use those accessory items which provide for the use of the device while driving.</string>
+    <string name="tutorial_show_again">Do not show Intro again</string>
+    <string name="tutorial_download">Download here</string>
+    <string name="tutorial_continue">Next</string>
+    <string name="tutorial_back">Back</string>
+    <string name="tutorial_start">Start</string>
+
+    <!-- Gestures Tutorial -->
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures_longtap">Tap and Hold</string>
+    <string name="gestures_longtap_event">Stop Speech</string>
+    <string name="gestures_swipe">Swipe</string>
+    <string name="gestures_swipe_event">Forward/Back</string>
+    <string name="gestures_roof">Roof</string>
+    <string name="gestures_roof_event">Main Menu</string>
+    <string name="gestures_tap">Tap</string>
+    <string name="gestures_tap_event">Selection</string>
+    <string name="gestures_circle">Circle</string>
+    <string name="gestures_circle_event">Call</string>
+
+    <!-- Impressum -->
+    <string name="impressum_title">Terms of Use</string>
+    <string name="impressum_author">Deutsche Telekom</string>
+    <string name="impressum_version">Version 1.0</string>
+    <string name="impressum_year">2012</string>
+
+    <!-- Notifications -->
+    <string name="update_newsitems">Updating News Items…</string>
+    <string name="update_newsimages">Loading News Images…</string>
+
+    <!-- Misc -->
+    <string name="plate_zero">0</string>
+    <string name="category">Categories</string>
+    <string name="placeholder_text">Place holder</string>
+    <string name="notavailable">Service temporarily not available.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="refresh_category">Refreshing category.</string>
+
+    <!-- Preferences -->
+    <string-array name="updateInterval">
+        <item name="1000">Every 1 second</item>
+        <item name="5000">Every 5 seconds</item>
+        <item name="30000">Every 30 seconds</item>
+        <item name="60000">Every 1 minute</item>
+        <item name="300000">Every 5 minutes</item>
+    </string-array>
+    <string-array name="updateIntervalValues">
+        <item name="1000">1000</item>
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+    </string-array>
+    <string-array name="initialCategories">
+        <item name="cars">Cars</item>
+        <item name="culture">Culture</item>
+        <item name="politics">Politics</item>
+        <item name="headlines">Headlines</item>
+        <item name="sports">Sports</item>
+        <item name="web">Web</item>
+        <item name="science">Science</item>
+    </string-array>
+
+</resources>

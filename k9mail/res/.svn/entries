@@ -1,0 +1,127 @@
+10
+
+dir
+12
+http://molutions.de/svn/macciato/k9mail/res
+http://molutions.de/svn/macciato
+
+
+
+2013-06-24T20:02:25.368171Z
+7
+macciato
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8a814ff4-c093-4781-bac0-3374f29e29f9
+
+anim
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+layout-land
+dir
+
+menu
+dir
+
+values
+dir
+
+values-ca
+dir
+
+values-cs
+dir
+
+values-da
+dir
+
+values-de
+dir
+
+values-el
+dir
+
+values-es
+dir
+
+values-fi
+dir
+
+values-fr
+dir
+
+values-fr-rCA
+dir
+
+values-gl
+dir
+
+values-hu
+dir
+
+values-it
+dir
+
+values-ja
+dir
+
+values-ko
+dir
+
+values-nl
+dir
+
+values-pl
+dir
+
+values-pt-rBR
+dir
+
+values-ru
+dir
+
+values-sv
+dir
+
+values-tr
+dir
+
+values-zh-rCN
+dir
+
+values-zh-rTW
+dir
+
+xml
+dir
+

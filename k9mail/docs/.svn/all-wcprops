@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/macciato/!svn/ver/7/k9mail/docs
+END
+TESTS
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/macciato/!svn/ver/7/k9mail/docs/TESTS
+END
+NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/macciato/!svn/ver/7/k9mail/docs/NOTES
+END
+activity_diagram.graphml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/docs/activity_diagram.graphml
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/macciato/!svn/ver/7/k9mail/docs/TODO
+END

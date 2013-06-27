@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topBarLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="74dp"
+    android:layout_marginBottom="-2dp"
+    android:background="?background" >
+
+    <RelativeLayout
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="?tbarLeftButton"
+        android:paddingBottom="3dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/homeButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal"
+            android:text="@string/button_home"
+            android:textColor="?header_button"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/homeButtonIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/homeButtonText"
+            android:layout_centerInParent="true"
+            android:src="?tbarLeftHome" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/modeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="?tbarRightButton"
+        android:paddingBottom="3dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/modeButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal"
+            android:text="@string/button_gesturemode"
+            android:textColor="?header_button"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/modeButtonIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/modeButtonText"
+            android:layout_centerInParent="true"
+            android:src="?tbarRightMouth" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/topBarName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/modeButton"
+        android:layout_toRightOf="@id/homeButton"
+        android:background="?tbar"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="@string/app_name"
+        android:textColor="?header_title"
+        android:textSize="21.3sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <ProgressBar
+        android:id="@+id/syncSpinner"
+        style="?syncSpinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/modeButton"
+        android:visibility="gone" />
+
+</RelativeLayout>

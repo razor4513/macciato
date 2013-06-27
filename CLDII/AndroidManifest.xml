@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.telekom.cldii"
+    android:versionCode="1"
+    android:versionName="1.0-881" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <application
+        android:name=".CldApplication"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.CLDII" >
+
+        <activity
+            android:name=".view.util.SplashscreenActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.util.CheckTextToSpeechActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+        <activity
+            android:name=".view.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name=".service.newsupdate.NewsUpdateService" >
+        </service>
+        <service android:name=".service.imagedownload.NewsImageDownloadService" >
+        </service>
+        <service android:name=".service.mail.MailUpdateService" >
+        </service>
+
+        <receiver android:name=".service.newsupdate.NewsUpdateAlarm" >
+        </receiver>
+
+        <activity
+            android:name=".view.news.NewsListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.news.NewsDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.news.NewsCategoriesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.news.NewsPredefinedIconsGallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/GestureTutorialDialogTheme" >
+        </activity>
+        <activity
+            android:name=".view.sms.SmsListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.sms.SmsDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.sms.SmsComposeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name=".view.phone.PhoneAddressbookListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".view.phone.PhoneAddressbookDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContactDetailDialogTheme" >
+        </activity>
+        <activity
+            android:name=".view.phone.PhoneFavoritesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.main.MainPreferenceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.GesturesTutorialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GestureTutorialDialogTheme" >
+        </activity>
+        <activity
+            android:name=".view.mail.MailAccountListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.mail.MailListActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.fsck.k9.VIEW_MAILS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.mail.MailDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.mail.MailComposeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name=".view.tutorial.TutorialActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.util.LegalNoticeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.util.CldExceptionDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/GestureTutorialDialogTheme" >
+        </activity>
+
+        <!-- K9 stuff -->
+        <activity
+            android:name="com.fsck.k9.activity.setup.Prefs"
+            android:configChanges="locale"
+            android:excludeFromRecents="true"
+            android:label="@string/prefs_title"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.fsck.k9.activity.setup.Prefs" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.FontSizeSettings"
+            android:configChanges="locale"
+            android:label="@string/font_size_settings_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupBasics"
+            android:configChanges="locale"
+            android:label="@string/account_setup_basics_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupAccountType"
+            android:configChanges="locale"
+            android:label="@string/account_setup_account_type_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupIncoming"
+            android:configChanges="locale"
+            android:label="@string/account_setup_incoming_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupComposition"
+            android:configChanges="locale"
+            android:label="@string/account_settings_composition_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            android:configChanges="locale"
+            android:label="@string/account_setup_outgoing_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupOptions"
+            android:configChanges="locale"
+            android:label="@string/account_setup_options_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupNames"
+            android:configChanges="locale"
+            android:label="@string/account_setup_names_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.ChooseFolder"
+            android:configChanges="locale"
+            android:label="@string/choose_folder_title"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.K9Dialog" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.ChooseIdentity"
+            android:configChanges="locale"
+            android:label="@string/choose_identity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.K9Dialog" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.ChooseAccount"
+            android:label="@string/choose_account_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.K9Dialog" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.ManageIdentities"
+            android:configChanges="locale"
+            android:label="@string/manage_identities_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.EditIdentity"
+            android:configChanges="locale"
+            android:label="@string/edit_identity_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+             XXX Note: this activity is hacked to ignore config changes,
+             since it doesn't currently handle them correctly in code.
+        -->
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:label="@string/account_setup_check_settings_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.AccountSettings"
+            android:configChanges="locale"
+            android:label="@string/account_settings_title_fmt"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.setup.FolderSettings"
+            android:configChanges="locale"
+            android:label="@string/folder_settings_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.FolderList"
+            android:configChanges="locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.MessageList"
+            android:configChanges="locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.MessageView"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data
+                    android:scheme="email"
+                    android:host="messages"
+                />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.MessageCompose"
+            android:configChanges="locale"
+            android:enabled="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            -->
+        </activity>
+        <!-- Search Activity - searchable -->
+        <activity
+            android:name="com.fsck.k9.activity.Search"
+            android:configChanges="locale"
+            android:label="@string/search_action"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable" />
+            -->
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.LauncherShortcuts"
+            android:configChanges="locale"
+            android:label="@string/shortcuts_title"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.AccessibleEmailContentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fsck.k9.activity.EmailAddressList"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

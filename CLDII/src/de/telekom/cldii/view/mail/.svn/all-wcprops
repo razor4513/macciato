@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail
+END
+MailComposeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail/MailComposeActivity.java
+END
+MailDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail/MailDetailsActivity.java
+END
+MailDialogSelectAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail/MailDialogSelectAddress.java
+END
+MailListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail/MailListActivity.java
+END
+MailAccountListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/mail/MailAccountListActivity.java
+END

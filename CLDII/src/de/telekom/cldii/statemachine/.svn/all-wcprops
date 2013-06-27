@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine
+END
+IStateMachineManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/IStateMachineManager.java
+END
+StateMachineConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/StateMachineConstants.java
+END
+StateModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/StateModel.java
+END
+StateContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/StateContent.java
+END
+StateMachine.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/StateMachine.java
+END

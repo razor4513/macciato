@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inputFeedLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?news_listitem"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <EditText
+        android:id="@+id/feedUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:hint="@string/dialog_news_add_feedurl"
+        android:inputType="textUri"
+        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/buttonsBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/feedUrl"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="@string/confirm_ok" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/confirm_cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

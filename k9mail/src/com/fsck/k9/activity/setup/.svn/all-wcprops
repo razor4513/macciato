@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup
+END
+AccountSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSettings.java
+END
+Prefs.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/Prefs.java
+END
+SpinnerOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/SpinnerOption.java
+END
+AccountSetupOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupOptions.java
+END
+AccountSetupOutgoing.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupOutgoing.java
+END
+AccountSetupCheckSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupCheckSettings.java
+END
+AccountSetupComposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupComposition.java
+END
+AccountSetupNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupNames.java
+END
+AccountSetupAccountType.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupAccountType.java
+END
+SpinnerHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/SpinnerHelper.java
+END
+AccountSetupIncoming.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupIncoming.java
+END
+AccountSetupBasics.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/AccountSetupBasics.java
+END
+FontSizeSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/FontSizeSettings.java
+END
+FolderSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/setup/FolderSettings.java
+END

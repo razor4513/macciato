@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/impl
+END
+NewsSQLiteConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/impl/NewsSQLiteConstants.java
+END
+SQLiteNewsDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/impl/SQLiteNewsDataProvider.java
+END
+InitialNewsDataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/news/impl/InitialNewsDataFactory.java
+END

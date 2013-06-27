@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states
+END
+StateModelMainMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelMainMenu.java
+END
+StateModelMailList.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelMailList.java
+END
+StateModelNewsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelNewsList.java
+END
+StateModelPhoneAddressbook.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelPhoneAddressbook.java
+END
+StateModelNewsCategories.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelNewsCategories.java
+END
+StateModelNewsDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelNewsDetails.java
+END
+StateModelMailDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelMailDetails.java
+END
+StateModelPhoneFavorites.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelPhoneFavorites.java
+END
+StateModelSms.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/statemachine/states/StateModelSms.java
+END

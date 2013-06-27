@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/macciato/!svn/ver/12/k9mail
+END
+MODULE_LICENSE_APACHE2
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/macciato/!svn/ver/7/k9mail/MODULE_LICENSE_APACHE2
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/macciato/!svn/ver/7/k9mail/.gitignore
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/macciato/!svn/ver/7/k9mail/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/macciato/!svn/ver/7/k9mail/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/macciato/!svn/ver/7/k9mail/project.properties
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/macciato/!svn/ver/7/k9mail/NOTICE
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/macciato/!svn/ver/7/k9mail/ant.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/macciato/!svn/ver/7/k9mail/.project
+END
+HTMLCLEANER_LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/macciato/!svn/ver/7/k9mail/HTMLCLEANER_LICENSE
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/macciato/!svn/ver/7/k9mail/Android.mk
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/macciato/!svn/ver/7/k9mail/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/macciato/!svn/ver/12/k9mail/.classpath
+END
+k9mail.iml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/macciato/!svn/ver/7/k9mail/k9mail.iml
+END

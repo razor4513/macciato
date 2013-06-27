@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data
+END
+IGridDataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/IGridDataService.java
+END
+IDataProviderManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/IDataProviderManager.java
+END
+IDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/data/IDataProvider.java
+END

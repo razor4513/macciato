@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config
+END
+IConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/IConfigurationManager.java
+END
+IApplicationConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/IApplicationConfiguration.java
+END
+ISchedulerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/ISchedulerManager.java
+END
+ITextToSpeechManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/ITextToSpeechManager.java
+END
+IPreferenceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/IPreferenceManager.java
+END
+IActivityLifecycleListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/IActivityLifecycleListener.java
+END
+CldApplicationPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/CldApplicationPreferences.java
+END
+CldApplicationConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/CldApplicationConfiguration.java
+END
+IApplicationPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/config/IApplicationPreferences.java
+END

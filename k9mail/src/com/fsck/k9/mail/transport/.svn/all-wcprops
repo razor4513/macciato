@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/transport
+END
+TrustedSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/transport/TrustedSocketFactory.java
+END
+WebDavTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/transport/WebDavTransport.java
+END
+SmtpTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/mail/transport/SmtpTransport.java
+END

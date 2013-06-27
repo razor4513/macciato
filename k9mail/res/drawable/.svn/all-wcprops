@@ -1,0 +1,533 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/macciato/!svn/ver/7/k9mail/res/drawable
+END
+ic_menu_add.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_add.png
+END
+ic_menu_reply_receipt.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_reply_receipt.png
+END
+ic_menu_compact.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_compact.png
+END
+ic_menu_mark.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_mark.png
+END
+stat_notify_email_generic.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/stat_notify_email_generic.png
+END
+email_quoted_bar.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/email_quoted_bar.9.png
+END
+ic_menu_move.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_move.png
+END
+ic_button_unflag.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_unflag.png
+END
+ic_menu_close_clear_cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_close_clear_cancel.png
+END
+btn_dialog_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_dialog_selected.png
+END
+ic_menu_reply.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_reply.png
+END
+button_indicator_next.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/button_indicator_next.png
+END
+envelope.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/envelope.png
+END
+ic_menu_set_sort.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_set_sort.png
+END
+ic_menu_reverse_sort.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_reverse_sort.png
+END
+show_more.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/show_more.png
+END
+signed_large.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/signed_large.png
+END
+overlay_error.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/overlay_error.png
+END
+btn_edit_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_edit_normal.png
+END
+ic_button_close_clear_cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_close_clear_cancel.png
+END
+unread_count_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/unread_count_background.xml
+END
+btn_check_small_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_check_small_off.png
+END
+ic_menu_attachment.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_attachment.png
+END
+ic_menu_search.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_search.png
+END
+ic_menu_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_delete.png
+END
+unread_widget_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/unread_widget_background.xml
+END
+colorpicker_hue.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/colorpicker_hue.png
+END
+btn_star_big_buttonless_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_star_big_buttonless_on.png
+END
+ic_menu_inbox.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_inbox.png
+END
+ic_menu_account_list.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_account_list.png
+END
+ic_menu_forward_mail.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_forward_mail.png
+END
+ic_menu_navigate.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_navigate.png
+END
+btn_dialog_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_dialog_pressed.png
+END
+ic_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_delete.png
+END
+btn_edit_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_edit_pressed.png
+END
+ic_button_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_delete.png
+END
+ic_email_attachment_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_email_attachment_small.png
+END
+btn_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_dialog.xml
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/icon.png
+END
+checkbox_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/checkbox_small.xml
+END
+btn_check_buttonless_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_check_buttonless_on.png
+END
+ic_button_archive.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_archive.png
+END
+btn_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_edit.xml
+END
+colorpicker_arrow.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/colorpicker_arrow.png
+END
+ic_button_mark_read.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_mark_read.png
+END
+ic_menu_refresh.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_refresh.png
+END
+ic_menu_send.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_send.png
+END
+ic_menu_edit.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_edit.png
+END
+ic_show_folders.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_show_folders.png
+END
+btn_edit_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_edit_selected.png
+END
+colorpicker_spyglass.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/colorpicker_spyglass.png
+END
+button_indicator_prev.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/button_indicator_prev.png
+END
+btn_check_buttonless_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_check_buttonless_off.png
+END
+ic_menu_select_all.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_select_all.png
+END
+ic_button_mark_unread.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_mark_unread.png
+END
+ic_button_move.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_move.png
+END
+ic_menu_save_draft.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_save_draft.png
+END
+rounded_corners.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/rounded_corners.xml
+END
+btn_dialog_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_dialog_normal.png
+END
+ic_button_contacts.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_contacts.png
+END
+ic_menu_cc.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_cc.png
+END
+show_less.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/show_less.png
+END
+ic_menu_preferences.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_preferences.png
+END
+message_list_item_footer_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/message_list_item_footer_background.xml
+END
+ic_menu_batch.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_batch.png
+END
+ic_email_thread_open_bottom_default.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_email_thread_open_bottom_default.9.png
+END
+overlay_ok.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/overlay_ok.png
+END
+ic_email_attachment.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_email_attachment.png
+END
+popup_background.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/popup_background.9.png
+END
+message_view_header_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/message_view_header_background.xml
+END
+ic_email_answered_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_email_answered_small.png
+END
+btn_check_small_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_check_small_on.png
+END
+ic_menu_reply_all.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_reply_all.png
+END
+checkbox.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/checkbox.xml
+END
+divider_horizontal_email.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/divider_horizontal_email.9.png
+END
+ic_menu_clear.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_clear.png
+END
+ic_button_flag.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_button_flag.png
+END
+attached_image_placeholder.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/attached_image_placeholder.png
+END
+btn_dialog_disable.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_dialog_disable.png
+END
+panel_separator.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/panel_separator.9.png
+END
+btn_edit_disable.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_edit_disable.png
+END
+ic_menu_compose.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_compose.png
+END
+ic_menu_identity.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/ic_menu_identity.png
+END
+star.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/star.xml
+END
+stat_notify_email_yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/stat_notify_email_yellow.png
+END
+text_box.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/text_box.9.png
+END
+colorpicker_menjadi.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/colorpicker_menjadi.png
+END
+btn_star_big_buttonless_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/res/drawable/btn_star_big_buttonless_off.png
+END

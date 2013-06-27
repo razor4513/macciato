@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity
+END
+LauncherShortcuts.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/LauncherShortcuts.java
+END
+FolderList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/FolderList.java
+END
+MessageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/MessageView.java
+END
+MessageCompose.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/MessageCompose.java
+END
+AccountList.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/AccountList.java
+END
+EditIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/EditIdentity.java
+END
+Search.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/Search.java
+END
+FolderInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/FolderInfoHolder.java
+END
+Accounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/Accounts.java
+END
+ChooseFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ChooseFolder.java
+END
+MessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/MessageList.java
+END
+MessageReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/MessageReference.java
+END
+FolderListFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/FolderListFilter.java
+END
+ActivityListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ActivityListener.java
+END
+UnreadWidgetConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/UnreadWidgetConfiguration.java
+END
+AccessibleEmailContentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/AccessibleEmailContentActivity.java
+END
+MessageInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/MessageInfoHolder.java
+END
+ProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ProgressListener.java
+END
+ManageIdentities.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ManageIdentities.java
+END
+SearchModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/SearchModifier.java
+END
+K9Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/K9Activity.java
+END
+ConfirmationDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ConfirmationDialog.java
+END
+K9ListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/K9ListActivity.java
+END
+InsertableHtmlContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/InsertableHtmlContent.java
+END
+ColorPickerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ColorPickerDialog.java
+END
+K9PreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/K9PreferenceActivity.java
+END
+EmailAddressList.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/EmailAddressList.java
+END
+ChooseIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/macciato/!svn/ver/7/k9mail/src/com/fsck/k9/activity/ChooseIdentity.java
+END

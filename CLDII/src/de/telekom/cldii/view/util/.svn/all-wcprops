@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util
+END
+LegalNoticeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/LegalNoticeActivity.java
+END
+CldExceptionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/CldExceptionDialog.java
+END
+NetworkCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/NetworkCheck.java
+END
+CallSystemIntent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/CallSystemIntent.java
+END
+CldExceptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/CldExceptionHandler.java
+END
+FlingGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/FlingGestureDetector.java
+END
+SplashscreenActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/SplashscreenActivity.java
+END
+OnFlingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/OnFlingListener.java
+END
+CheckTextToSpeechActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/macciato/!svn/ver/4/CLDII/src/de/telekom/cldii/view/util/CheckTextToSpeechActivity.java
+END

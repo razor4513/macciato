@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/macciato/!svn/ver/7/k9mail/res/menu
+END
+folder_select_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/menu/folder_select_option.xml
+END
+message_view_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/menu/message_view_option.xml
+END
+disabled_accounts_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/menu/disabled_accounts_context.xml
+END
+message_compose_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/macciato/!svn/ver/7/k9mail/res/menu/message_compose_option.xml
+END
+folder_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/macciato/!svn/ver/7/k9mail/res/menu/folder_context.xml
+END
+manage_identities_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/macciato/!svn/ver/7/k9mail/res/menu/manage_identities_option.xml
+END
+accounts_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/macciato/!svn/ver/7/k9mail/res/menu/accounts_option.xml
+END
+message_list_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/macciato/!svn/ver/7/k9mail/res/menu/message_list_option.xml
+END
+folder_list_option.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/macciato/!svn/ver/7/k9mail/res/menu/folder_list_option.xml
+END
+accounts_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/macciato/!svn/ver/7/k9mail/res/menu/accounts_context.xml
+END
+message_list_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/macciato/!svn/ver/7/k9mail/res/menu/message_list_context.xml
+END
+manage_identities_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/macciato/!svn/ver/7/k9mail/res/menu/manage_identities_context.xml
+END
